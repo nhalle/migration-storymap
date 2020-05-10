@@ -1,0 +1,39 @@
+{
+  "name": "envmig-backend",
+  "version": "1.0.0",
+  "description": "emig",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "pmclient": "pm2 start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "f-dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "admin-bro": "^2.2.4",
+    "admin-bro-expressjs": "^2.0.4",
+    "admin-bro-mongoose": "^0.5.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.0",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "ra-data-simple-rest": "^3.3.2",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
