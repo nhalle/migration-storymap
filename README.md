@@ -11,7 +11,7 @@ Migration-storymap is a web mapping application for visual story telling, create
 Install MongoDB to your server and create a collection, you can also create a MongoDB instance in the cloud at https://www.mongodb.com/cloud/atlas if you're cloning this locally.
 
 #### Step 2: Clone
-Clone the migration-storymap repository
+Clone the migration-storymap repository: https://github.com/nhalle/migration-storymap.git
 
 #### Step 3: Install dependencies
 
